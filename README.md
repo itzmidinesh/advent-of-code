@@ -1,9 +1,47 @@
 # 🌧️☂️ Advent of Code
 
+## Table of Contents
+- [Overview](#overview)
+- [🚀 Getting Started](#🚀-getting-started)
+  - [🧾 Prerequisites](#🧾-prerequisites)
+  - [🛠️ Running Code](#🛠️-running-code)
+  - [🖨️ Screenshots](#🖨️-screenshots)
+- [✨ About Chingu](#✨-about-chingu)
+
 ## Overview
 
-This repo contains my solutions to the [AdventOfCode](https://adventofcode.com/) problems.
+This repo contains my solutions to the [AdventOfCode](https://adventofcode.com/) problems using [Python3](https://www.python.org/). The challenge is attempted to take part in the [Chingu 2023 Holiday Hackathon](https://wwww.chingu.io/) event.
 
+## 🚀 Getting Started
+
+These instructions will help you run the code in your local environment.
+
+### 🧾 Prerequisites
+
+Before starting, you need to install the following on your computer.
+
+[![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org/downloads/)
+[![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/downloads)
+
+### 🛠️ Running Code
+
+1. **Clone the repository**
+    ```bash
+    git clone https://github.com/itzmidinesh/advent-of-code.git
+    ```
+2. Run `cd advent-of-code` to change the working directory.
+3. Place the input data from [AdventOfCode](https://adventofcode.com/) into the file `input.txt`.
+4. Run the following in your terminal or command prompt to run the script. 
+    ```python
+    python 2023\day_xx
+    ```
+    Note: Replace xx with the day of the challenge you are trying to solve. i.e., 01, 02, etc.
+5. The solution for both parts of the challenge for the day would be printed in the terminal.
+
+### 🖨️ Screenshots
+Here is an example screenshot of how to run the script in the terminal/command prompt.
+
+![Example Screenshot](assets/images/running-code.png)
 
 ## ✨ About Chingu
 
