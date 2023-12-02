@@ -2,6 +2,7 @@
 
 ## Table of Contents
 - [Overview](#overview)
+- [⭐️ Results](#⭐️-results)
 - [🚀 Getting Started](#🚀-getting-started)
   - [🧾 Prerequisites](#🧾-prerequisites)
   - [🛠️ Running Code](#🛠️-running-code)
@@ -11,6 +12,11 @@
 ## Overview
 
 This repo contains my solutions to the [AdventOfCode](https://adventofcode.com/) problems using [Python3](https://www.python.org/). The challenge is attempted to take part in the [Chingu 2023 Holiday Hackathon](https://wwww.chingu.io/) event.
+
+## ⭐️ Results
+
+- [Day 1](2023/day_01.py): ⭐️⭐️
+- [Day 2](2023/day_02.py): ⭐️⭐️
 
 ## 🚀 Getting Started
 
