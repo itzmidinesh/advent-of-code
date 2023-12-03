@@ -7,6 +7,7 @@
   - [🧾 Prerequisites](#🧾-prerequisites)
   - [🛠️ Running Code](#🛠️-running-code)
   - [🖨️ Screenshots](#🖨️-screenshots)
+- [✨ Acknowledgments](#✨-acknowledgments)
 - [✨ About Chingu](#✨-about-chingu)
 
 ## Overview
@@ -49,6 +50,10 @@ Before starting, you need to install the following on your computer.
 Here is an example screenshot of how to run the script in the terminal/command prompt.
 
 ![Example Screenshot](assets/images/running-code.png)
+
+## ✨ Acknowledgments
+
+Heartfelt thanks to [Eric Wastl](https://was.tl/) for creating the brilliant [AdventOfCode](https://adventofcode.com/) platform, where the joy of coding meets festive challenges. Immense gratitude to the dedicated [sponsors](https://adventofcode.com/2023/sponsors) whose support makes the magic of [AdventOfCode](https://adventofcode.com/) possible.
 
 ## ✨ About Chingu
 
