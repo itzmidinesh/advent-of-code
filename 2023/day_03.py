@@ -10,7 +10,7 @@ data = [x.strip() for x in data_input]
 
 def part1(data):
     # solves part1 problem and prepares data for part2
-    number_regex = re.compile("(\d+)")
+    number_regex = re.compile(r"(\d+)")
 
     total_sum = 0
     graph = defaultdict(list)
