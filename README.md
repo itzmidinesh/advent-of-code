@@ -24,6 +24,7 @@ This repo contains my solutions to the [AdventOfCode](https://adventofcode.com/)
 - [Day 6](2023/day_06.py): ⭐️⭐️
 - [Day 7](2023/day_07.py): ⭐️⭐️
 - [Day 8](2023/day_08.py): ⭐️⭐️
+- [Day 9](2023/day_09.py): ⭐️⭐️
 
 ## Getting Started
 
