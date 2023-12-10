@@ -16,15 +16,16 @@ This repo contains my solutions to the [AdventOfCode](https://adventofcode.com/)
 
 ## Results
 
-- [Day 1](2023/day_01.py): ⭐️⭐️
-- [Day 2](2023/day_02.py): ⭐️⭐️
-- [Day 3](2023/day_03.py): ⭐️⭐️
-- [Day 4](2023/day_04.py): ⭐️⭐️
-- [Day 5](2023/day_05.py): ⭐️⭐️
-- [Day 6](2023/day_06.py): ⭐️⭐️
-- [Day 7](2023/day_07.py): ⭐️⭐️
-- [Day 8](2023/day_08.py): ⭐️⭐️
-- [Day 9](2023/day_09.py): ⭐️⭐️
+- [Day 01](2023/day_01.py): ⭐️⭐️
+- [Day 02](2023/day_02.py): ⭐️⭐️
+- [Day 03](2023/day_03.py): ⭐️⭐️
+- [Day 04](2023/day_04.py): ⭐️⭐️
+- [Day 05](2023/day_05.py): ⭐️⭐️
+- [Day 06](2023/day_06.py): ⭐️⭐️
+- [Day 07](2023/day_07.py): ⭐️⭐️
+- [Day 08](2023/day_08.py): ⭐️⭐️
+- [Day 09](2023/day_09.py): ⭐️⭐️
+- [Day 10](2023/day_10.py): ⭐️⭐️
 
 ## Getting Started
 
