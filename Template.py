@@ -1,4 +1,4 @@
-import time, sys
+import time
 
 
 def read_data(file_path):
@@ -10,8 +10,7 @@ def read_data(file_path):
             data_input = file.readlines()
         return [x.strip() for x in data_input]
     except FileNotFoundError:
-        print(f"Error: Input file {file_path} not found.")
-        sys.exit(1)
+        raise FileNotFoundError(f"Error: Input file {file_path} not found.")
 
 
 def part1(data):
