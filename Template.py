@@ -1,4 +1,4 @@
-import timeit, sys
+import time, sys
 
 
 def read_data(file_path):
@@ -24,20 +24,20 @@ def part2(data):
     return 0
 
 
-def measure_time(func, args):
-    return timeit.timeit(
-        stmt=f"{func}({args})", setup=f"from __main__ import {func}, {args}", number=1
-    )
-
-
 if __name__ == "__main__":
     data = read_data("input.txt")
+    # Measure time for part1
+    start_time = time.time()
     result_part1 = part1(data)
+    end_time = time.time()
+    time_part1 = end_time - start_time
+
+    # Measure time for part2
+    start_time = time.time()
     result_part2 = part2(data)
+    end_time = time.time()
+    time_part2 = end_time - start_time
+
     print(f"The solution for part 1 is {result_part1} and part 2 is {result_part2}")
-
-    time_part1 = measure_time("part1", "data")
-    time_part2 = measure_time("part2", "data")
-
     print(f"Time taken to execute part 1: {time_part1:.6f} seconds")
     print(f"Time taken to execute part 2: {time_part2:.6f} seconds")
