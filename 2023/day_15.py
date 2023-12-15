@@ -32,23 +32,25 @@ def part1(data):
 
 def part2(data):
     # solves part2 problem
-    sum = 0
-    lenses = [[] for i in range(256)]
+    focusing_power = 0
+    boxes = [[] for i in range(256)]
     focal_length = [{} for i in range(256)]
     for step in data:
         label = step.split("=")[0].split("-")[0]
         hash_value = hash(label)
         if "-" in step:
-            if label in lenses[hash_value]:
-                lenses[hash_value].remove(label)
+            if label in boxes[hash_value]:
+                boxes[hash_value].remove(label)
         if "=" in step:
-            if label not in lenses[hash_value]:
-                lenses[hash_value].append(label)
+            if label not in boxes[hash_value]:
+                boxes[hash_value].append(label)
             focal_length[hash_value][label] = int(step.split("=")[1])
-    for box_index, box in enumerate(lenses):
+    for box_index, box in enumerate(boxes):
         for slot_index, lens in enumerate(box):
-            sum += (box_index + 1) * (slot_index + 1) * focal_length[box_index][lens]
-    return sum
+            focusing_power += (
+                (box_index + 1) * (slot_index + 1) * focal_length[box_index][lens]
+            )
+    return focusing_power
 
 
 if __name__ == "__main__":
