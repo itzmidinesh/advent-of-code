@@ -33,6 +33,7 @@ This repo contains my solutions to the [AdventOfCode](https://adventofcode.com/)
 - [Day 15](2023/day_15.py): ⭐️⭐️
 - [Day 16](2023/day_16.py): ⭐️⭐️
 - [Day 17](2023/day_17.py): ⭐️⭐️
+- [Day 18](2023/day_18.py): ⭐️⭐️
 
 ## Getting Started
 
