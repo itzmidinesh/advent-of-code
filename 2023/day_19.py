@@ -88,7 +88,7 @@ def part2(range, workflows, curr_workflow="in"):
 
 
 if __name__ == "__main__":
-    workflows, ratings = read_data("test.txt")
+    workflows, ratings = read_data("input.txt")
     parsed_workflows = parse_workflows(workflows)
 
     # Measure time for part1
