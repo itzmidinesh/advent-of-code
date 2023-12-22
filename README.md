@@ -37,6 +37,7 @@ This repo contains my solutions to the [AdventOfCode](https://adventofcode.com/)
 - [Day 19](2023/day_19.py): ⭐️⭐️
 - [Day 20](2023/day_20.py): ⭐️⭐️
 - [Day 21](2023/day_21.py): ⭐️⭐️
+- [Day 22](2023/day_22.py): ⭐️⭐️
 
 ## Getting Started
 
