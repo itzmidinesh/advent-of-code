@@ -60,12 +60,17 @@ Before starting, you need to install the following on your computer.
     ```
 2. Run `cd advent-of-code` to change the working directory.
 3. Place the input data from [AdventOfCode](https://adventofcode.com/) into the file `input.txt`.
-4. Run the following in your terminal or command prompt to run the script. 
+4. Run the following in the terminal to install dependencies using [pip](https://pip.pypa.io/en/stable/).
+    ```python
+    pip install -r requirements.txt
+    ```
+    Note: This step is needed only for running Day 23 script. 
+5. Run the following in your terminal or command prompt to run the script. 
     ```python
     python 2023\day_xx
     ```
     Note: Replace xx with the day of the challenge you are trying to solve. i.e., 01, 02, etc.
-5. The solution for both parts of the challenge for the day would be printed in the terminal.
+6. The solution for both parts of the challenge for the day would be printed in the terminal.
 
 ### Screenshots
 Here is an example screenshot of how to run the script in the terminal/command prompt.
