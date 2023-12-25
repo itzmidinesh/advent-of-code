@@ -65,7 +65,7 @@ Before starting, you need to install the following on your computer.
     ```python
     pip install -r requirements.txt
     ```
-    Note: This step is needed only for running Day 23 script. 
+    Note: This step is needed only for running Day 24 & Day 25 scripts.
 5. Run the following in your terminal or command prompt to run the script. 
     ```python
     python 2023\day_xx
