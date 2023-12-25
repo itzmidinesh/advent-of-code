@@ -14,6 +14,8 @@
 
 This repo contains my solutions to the [AdventOfCode](https://adventofcode.com/) problems using [Python3](https://www.python.org/). The challenge is attempted to take part in the [Chingu 2023 Holiday Hackathon](https://wwww.chingu.io/) event.
 
+The solutions are modified with new variable names to improve readability but the logic remains the same as the original code I used to solve the puzzles.
+
 ## Results
 
 | Day                      | Stars  | Part 1   | Rank | Part 2   | Rank |
